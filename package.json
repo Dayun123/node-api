@@ -5,7 +5,8 @@
   "main": "express.js",
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha development.test.js",
-    "start": "node express.js"
+    "start": "node express.js",
+    "dev": "nodemon express.js"
   },
   "author": "deorsi",
   "license": "ISC",
